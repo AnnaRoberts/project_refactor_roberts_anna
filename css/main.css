@@ -82,21 +82,21 @@ a {
 /* Menu */
 
 #menu {
+    float: right;
     width: 500px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
     list-style: none;
     line-height: normal;
 }
 
 #menu li {
-    float: left;
+    width: 500px;
 }
 
 #menu a {
@@ -216,6 +216,7 @@ a {
 /* Sidebar */
 
 #sidebar {
+    float: left;
     width: 270px;
     margin: 0px;
     padding: 30px 0px 0px 0px;
