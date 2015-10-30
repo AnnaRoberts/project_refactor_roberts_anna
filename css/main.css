@@ -2,11 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing:inherit;
-}
+
 
 .site-container {
     max-width: 1200px;
@@ -152,6 +148,7 @@ a {
 
 #content {
     padding: 10px 10px 10px 10px;
+    margin: auto;
 }
 
 .post {
@@ -224,9 +221,7 @@ a {
 /* Sidebar */
 
 #sidebar {
-    float: left;
-    width: 270px;
-    margin: 0px;
+    margin: auto;
     padding: 30px 30px 30px 30px;
 }
 
