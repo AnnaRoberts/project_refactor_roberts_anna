@@ -233,6 +233,16 @@ a {
     text-decoration: none;
 }
 
+@media all and (min-width: 950px){
+    #content{
+        float: right;
+        width: calc(100% / 3 *2);
+    }
+}
+@media all and (min-width: 950px){
+    #sidebar{
+        float: left;
+}
 /* Sidebar */
 
 #sidebar {
