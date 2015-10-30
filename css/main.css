@@ -253,13 +253,13 @@ a {
 
 #sidebar ul {
     margin: auto;
-    padding: 0;
     list-style: none;
 }
 
 #sidebar li {
     margin: 0;
-    padding: 0;
+    padding: .25em;
+    background: #222222;
 }
 
 #sidebar li ul {
@@ -288,11 +288,9 @@ a {
 }
 
 #sidebar h2 {
-    height: 38px;
-    padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
     font-size: 1.8em;
-    color: #222222;
+    color: white;
 }
 
 #sidebar a {
