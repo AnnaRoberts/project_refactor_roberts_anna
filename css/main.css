@@ -1,7 +1,11 @@
 html {
     box-sizing: border-box;
 }
-
+*,
+*:before,
+*:after, {
+    box-sizing:inherit;
+}
 
 
 .site-container {
@@ -10,7 +14,7 @@ html {
 
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -28,15 +32,15 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.4em;
 }
 
 h3 {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 p, ul, ol {
@@ -69,7 +73,6 @@ a {
 /* Logo */
 
 #logo {
-    width: 300px;
     margin: 0;
     padding-left: 30px;
     color: #FFFFFF;
@@ -103,7 +106,6 @@ a {
 #menu a {
     display: block;
     line-height: 15px;
-    margin-right: 1px;
     padding: 1em;
     text-decoration: none;
     text-align: center;
@@ -165,7 +167,6 @@ a {
 #content {
     padding: 10px 10px 10px 10px;
     margin: auto;
-    margin-right: 40px;
 }
 
 .post {
