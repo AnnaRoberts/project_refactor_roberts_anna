@@ -12,6 +12,17 @@ html {
     max-width: 1200px;
 }
 
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 
 body {
     margin: auto;
@@ -260,7 +271,7 @@ a {
 }
 
 #sidebar section {
-    margin: 0;
+    margin: 20px;
     padding: .25em;
     background: #222222;
 }
