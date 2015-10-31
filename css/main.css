@@ -259,30 +259,30 @@ a {
     list-style: none;
 }
 
-#sidebar li {
+#sidebar section {
     margin: 0;
     padding: .25em;
     background: #222222;
 }
 
-#sidebar li ul {
+#sidebar section ul {
     margin: 0px 0px;
     padding-bottom: 30px;
 }
 
-#sidebar li li {
+#sidebar section li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
 }
 
-#sidebar li li a {
+#sidebar section li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
-#sidebar h2 {
+#sidebar h3 {
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: white;
